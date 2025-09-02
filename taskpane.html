@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello World Add-in</title>
+
+    <!-- Office JavaScript API -->
+    <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+
+    <!-- Local files -->
+    <link rel="stylesheet" href="taskpane.css" />
+    <script type="text/javascript" src="taskpane.js"></script>
+</head>
+
+<body>
+    <main id="app-body" class="ms-welcome">
+        <header class="ms-welcome__header ms-bgColor-neutralLighter">
+            <img width="90" height="90" src="assets/logo-filled.png" alt="Hello World" title="Hello World" />
+            <h1 class="ms-font-su ms-fontColor-neutralPrimary">Hello World!</h1>
+            <p class="ms-font-m ms-fontColor-neutralPrimary">Welcome to your Office Add-in</p>
+        </header>
+        <section id="sideload-msg" class="ms-welcome__main">
+            <h2 class="ms-font-xl ms-fontColor-neutralPrimary">Hello World Office Add-in</h2>
+            <p class="ms-font-m ms-fontColor-neutralPrimary">
+                This is a simple Office.js add-in that displays "Hello World".
+            </p>
+            <p class="ms-font-m ms-fontColor-neutralPrimary">
+                The add-in is now ready to use!
+            </p>
+            <div class="ms-welcome__features">
+                <h3 class="ms-font-l ms-fontColor-neutralPrimary">Features:</h3>
+                <ul class="ms-font-m ms-fontColor-neutralPrimary">
+                    <li>Simple "Hello World" message</li>
+                    <li>Office.js integration</li>
+                    <li>Cross-platform compatibility</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

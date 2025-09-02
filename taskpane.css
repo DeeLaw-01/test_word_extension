@@ -1,0 +1,111 @@
+/* Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT license. */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.ms-welcome {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    min-height: 100vh;
+    min-width: 0;
+    overflow: auto;
+}
+
+.ms-welcome__header {
+    min-height: 250px;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px 0;
+    background-color: #f3f2f1;
+}
+
+.ms-welcome__header img {
+    margin-bottom: 20px;
+}
+
+.ms-welcome__main {
+    min-height: 0;
+    flex: 1 1 0px;
+    padding: 30px 20px;
+}
+
+.ms-welcome__features {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #faf9f8;
+    border-radius: 4px;
+}
+
+.ms-welcome__features h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.ms-welcome__features ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.ms-welcome__features li {
+    margin-bottom: 8px;
+}
+
+/* Typography */
+.ms-font-su {
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.ms-font-xl {
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.4;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.ms-font-l {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.4;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.ms-font-m {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+/* Colors */
+.ms-fontColor-neutralPrimary {
+    color: #323130;
+}
+
+.ms-bgColor-neutralLighter {
+    background-color: #f3f2f1;
+}
