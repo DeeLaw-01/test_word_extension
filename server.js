@@ -37,8 +37,9 @@ const server = http.createServer((req, res) => {
     return;
   }
 
-  // Parse URL
-  let filePath = '.' + req.url;
+  // Parse URL and remove query parameters
+  const url = new URL(req.url, `http://localhost:${PORT}`);
+  let filePath = '.' + url.pathname;
   if (filePath === './') {
     filePath = './taskpane.html';
   }
